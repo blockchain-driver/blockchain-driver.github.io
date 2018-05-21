@@ -13,6 +13,36 @@ Blockchain **network** is an instance of distributed database, usually called "m
 Wire protocol is interface that node use to communicate: share transaction, blocks.  
 Connectivity protocol is interface that is used for communicated with node outside of network needs.
 
+A ledger is a table like
+
+<!--
+| txid | From        | To           | Value  | Notes |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+-->
+
+<table style="width:100%">
+<tr>
+  <th>txid</th>
+  <th>From</th>
+  <th>To</th>
+  <th>Value</th>
+  <th>Notes</th>
+</tr>
+<tr>
+<td>a16c</td>
+<td>b9ef</td>
+<td>10</td>
+</tr>
+<tr>
+<td>1f72</td>
+<td>2a9b</td>
+<td>20</td>
+</tr>
+</table>
+
 ## Design approach
 
 Good object oriented design promotes incapsulation, hiding details that are not relevent out of context.
