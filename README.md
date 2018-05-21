@@ -32,16 +32,22 @@ A ledger is a table like
   <th>Notes</th>
 </tr>
 <tr>
+  <td>0001</td>
 <td>a16c</td>
 <td>b9ef</td>
 <td>10</td>
+  <td>Payment for...</td>
 </tr>
 <tr>
+  <td>0002</td>
 <td>1f72</td>
 <td>2a9b</td>
 <td>20</td>
+  <td>Payment for...</td>
 </tr>
 </table>
+
+The table is append-only, that is only `CREATE`, `READ` operations of CRUD storage operations.
 
 ## Design approach
 
